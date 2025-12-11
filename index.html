@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Company Tools Portal</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #0d1117;
+        margin: 0;
+        padding: 30px;
+        color: #fff;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #58a6ff;
+        font-weight: 600;
+    }
+
+    h2 {
+        color: #9ecbff;
+        margin-top: 40px;
+        margin-bottom: 18px;
+        font-size: 26px;
+        border-left: 4px solid #58a6ff;
+        padding-left: 10px;
+    }
+
+    .tools-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 18px;
+        max-width: 1200px;
+        margin: 0 auto 50px auto;
+    }
+
+    .tool-card {
+        background: #161b22;
+        padding: 18px 20px;
+        border-radius: 12px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 500;
+        color: #c9d1d9;
+        border: 1px solid #30363d;
+        transition: 0.25s ease;
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tool-card:hover {
+        background: #238636;
+        color: white;
+        transform: translateY(-4px);
+        border-color: #2ea043;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>Company Tools Portal</h1>
+
+<!-- ------------------- MARKETING ------------------- -->
+<h2>Marketing Tools</h2>
+<div class="tools-container">
+
+    <a class="tool-card" href="https://analytics.google.com" target="_blank">Google Analytics</a>
+    <a class="tool-card" href="https://mailchimp.com" target="_blank">Mailchimp</a>
+    <a class="tool-card" href="https://semrush.com" target="_blank">SEMrush</a>
+    <a class="tool-card" href="https://workspace.google.com" target="_blank">Google Workspace</a>
+    <a class="tool-card" href="https://www.canva.com" target="_blank">Canva</a>
+
+</div>
+
+<!-- ------------------- PRODUCTIVITY ------------------- -->
+<h2>Productivity Tools</h2>
+<div class="tools-container">
+
+    <a class="tool-card" href="https://docs.google.com" target="_blank">Google Docs</a>
+    <a class="tool-card" href="https://sheets.google.com" target="_blank">Google Sheets</a>
+    <a class="tool-card" href="https://office.com" target="_blank">Microsoft Word</a>
+    <a class="tool-card" href="https://office.com" target="_blank">Microsoft PowerPoint</a>
+    <a class="tool-card" href="https://www.figma.com" target="_blank">Figma</a>
+
+</div>
+
+<!-- ------------------- COMMUNICATION ------------------- -->
+<h2>Communication Tools</h2>
+<div class="tools-container">
+
+    <a class="tool-card" href="https://slack.com" target="_blank">Slack</a>
+    <a class="tool-card" href="https://meet.google.com" target="_blank">Google Meet</a>
+    <a class="tool-card" href="https://www.atlassian.com/software/jira" target="_blank">Jira</a>
+
+</div>
+
+<!-- ------------------- ENGINEERING ------------------- -->
+<h2>Engineering & Development Tools</h2>
+<div class="tools-container">
+
+    <a class="tool-card" href="https://azure.microsoft.com" target="_blank">Microsoft Azure</a>
+    <a class="tool-card" href="https://www.python.org" target="_blank">Python</a>
+    <a class="tool-card" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>
+    <a class="tool-card" href="https://www.java.com" target="_blank">Java</a>
+    <a class="tool-card" href="https://react.dev" target="_blank">React</a>
+    <a class="tool-card" href="https://nodejs.org" target="_blank">Node.js</a>
+
+</div>
+
+</body>
+</html>
